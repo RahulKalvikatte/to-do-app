@@ -1,0 +1,68 @@
+body{
+    font-family: Arial;  
+    background-color: aliceblue;
+}
+
+#heading{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px ;
+
+}
+
+#inputContainer{
+    
+    display: grid;
+    grid-template-columns: 200px 100px 50px;
+    column-gap: 20px;
+    margin-top: 20px;
+}
+#todoitem{
+    width: 200px;
+    height: 40px;
+    text-decoration: wavy;
+    background-color: rgb(236, 229, 221);
+    border: solid 2px;
+}
+#dueDate{
+    
+    background-color: rgb(236, 229, 221) ;
+    
+    border: solid 2px;
+
+}
+
+#addBtn{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(236, 229, 221) ;
+    border: solid 2px;
+    cursor:pointer;
+}
+
+#addBtn:hover{
+    background-color: rgb(154, 235, 154);
+}
+.display-container{
+    display: grid;
+    grid-template-columns: 200px 100px 50px;
+    row-gap: 10px;
+    column-gap: 20px;
+    margin-top: 10px;
+}
+
+#delete-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#delete-btn:hover{
+    background-color: rgb(232, 114, 114);
+}
+#display{
+    margin-top: 10px;
+    text-align: left ;
+    font-size: larger;
+}
